@@ -30,3 +30,10 @@ Install Django and Selenium
 """
 pip install "django<1.12" "selenium<4"
 
+$ eval "$(ssh-agent -s)"
+$ ssh-add api key
+
+git remote add origin https://github.com/pomeroyd/tdd-python-book.git
+git branch -M main
+git push -u origin main
+
