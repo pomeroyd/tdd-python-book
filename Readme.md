@@ -37,3 +37,15 @@ git remote add origin https://github.com/pomeroyd/tdd-python-book.git
 git branch -M main
 git push -u origin main
 
+
+## Create a new App called lists
+
+`python manage.py startapp lists`
+
+Created unit test in lists
+
+Run the unit test by typing 
+
+`python manage.py test`
+
+## That's all for now
