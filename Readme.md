@@ -48,4 +48,8 @@ Run the unit test by typing
 
 `python manage.py test`
 
+to start the dev server type:
+
+`python manage.py runserver`
+
 ## That's all for now
